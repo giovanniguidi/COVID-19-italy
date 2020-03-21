@@ -41,6 +41,9 @@ dR/dt = γ I(t)
 
 ![picture alt](https://github.com/giovanniguidi/COVID-19-italy/blob/master/images/evolution.png "")
 
+![picture alt](https://github.com/giovanniguidi/COVID-19-italy/blob/master/images/modelling.png "")
+
+
 ## To do
 
 - [x] compare R0 among different regions and provinces
