@@ -25,9 +25,9 @@ The SIR model describes the change in the population of each of these compartmen
 
 Beta describes the effective contact rate of the disease: an infected individual comes into contact with βN other individuals per unit time (of which the fraction that are susceptible to contracting the disease is S/N). 
 
-γ is the mean recovery rate, namelt 1/γ is the mean period of time during which an infected individual can pass it on.
+&gamma; is the mean recovery rate, namelt 1/γ is the mean period of time during which an infected individual can pass it on.
 
-The differential equations describing this model were first derived by Kermack and McKendrick [Proc. R. Soc. A, 115, 772 (1927)]:
+The differential equations describing this model were first derived by Kermack and McKendrick in 1927:
 
 ```
 dS/dt = - beta SI/N
@@ -39,6 +39,6 @@ dR/dt = gamma I
 
 ## To do
 
-- [x] fit beta and gamma, and study the evolution of R0 over time
+- [x] fit beta and gamma with L-BFGS-B optimization, and study the evolution of R0 over time
 - [x] data-driven modelling (time-series)
 - [x] use Wuhan data to study the effect of quarantine on R0 trend
