@@ -9,7 +9,7 @@ Download data from the github account of the official italian autorities (Presid
 
 https://github.com/pcm-dpc/COVID-19
 
-Run the notebook for an exploratory data analysis with some simple plots
+Run the notebook for an exploratory data analysis with some plots
 
 ### The model
 
