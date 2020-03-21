@@ -9,7 +9,7 @@ Clone the repo from the official italian autorities github account (Presidenza d
 
 https://github.com/pcm-dpc/COVID-19
 
-Run the notebook for an exploratory data analysis with some plots
+Run the EDA notebook for an exploratory data analysis.
 
 ### The baseline model
 
