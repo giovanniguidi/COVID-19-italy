@@ -36,8 +36,14 @@ dI/dt = β S(t)I(t)/N - γ I(t)
 dR/dt = γ I(t)
 ```
 
+### Plots
+
+
+![picture alt](https://github.com/giovanniguidi/COVID-19-italy/blob/master/images/evolution.png "")
+
 ## To do
 
+- [x] compare R0 among different regions and provinces
 - [x] find best &beta; and &gamma; with L-BFGS-B optimization, and study the evolution of R0 on time
 - [x] data-driven modelling (time-series)
 - [x] use Wuhan data to study the effect of quarantine on R0 trend
