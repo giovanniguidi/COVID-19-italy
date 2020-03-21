@@ -1,17 +1,17 @@
 ### COVID-19 analyis
 
-This is a simple analyis of the spread of COVID-19 in italy
+This repo contains some tools to analyse and model the spread of COVID-19 in italy
 
 
 ### Data
 
-Clone the repo from the github account of the official italian autorities (Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile). This is updated on a daily basis. 
+Clone the repo from the official italian autorities github account (Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile). This should be updated on a daily basis. 
 
 https://github.com/pcm-dpc/COVID-19
 
 Run the notebook for an exploratory data analysis with some plots
 
-### The model
+### The baseline model
 
 
 The SIR epidemic model is a simple mathematical description of the spread of a disease in a population. 
@@ -29,8 +29,16 @@ Beta describes the effective contact rate of the disease: an infected individual
 
 The differential equations describing this model were first derived by Kermack and McKendrick [Proc. R. Soc. A, 115, 772 (1927)]:
 
+```
 dS/dt = - beta SI/N
-
 dI/dt = beta SI/N - gamma I
-
 dR/dt = gamma I
+```
+
+
+
+## To do
+
+- [x] fit beta and gamma, and study the evolution of R0 over time
+- [x] data-driven modelling (time-series)
+- [x] use Wuhan data to study the effect of quarantine on R0 trend
