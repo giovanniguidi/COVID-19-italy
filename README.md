@@ -23,7 +23,7 @@ R(t) are those individuals who have recovered from the disease and now have immu
 
 The SIR model describes the change in the population of each of these compartments in terms of two parameters, beta and gamma. 
 
-Beta describes the effective contact rate of the disease: an infected individual comes into contact 
+&beta; describes the effective contact rate of the disease: an infected individual comes into contact 
 with &beta;N other individuals per unit time (of which the fraction that are susceptible to contracting the disease is S/N). 
 
 &gamma; is the mean recovery rate, namely 1/&gamma; is the mean period of time during which an infected individual can pass it on.
@@ -38,6 +38,6 @@ dR/dt = γ I(t)
 
 ## To do
 
-- [x] find best beta and gamma with L-BFGS-B optimization, and study the evolution of R0 on time
+- [x] find best &beta; and &gamma; with L-BFGS-B optimization, and study the evolution of R0 on time
 - [x] data-driven modelling (time-series)
 - [x] use Wuhan data to study the effect of quarantine on R0 trend
