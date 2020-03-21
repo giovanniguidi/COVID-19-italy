@@ -36,6 +36,9 @@ dI/dt = &beta; S(t) I(t) / N - &gamma; I
 dR/dt = &gamma; I(t)
 ```
 
+```
+\frac{dS}{dt} = - &beta; S(t) I(t) / N
+```
 
 
 ## To do
