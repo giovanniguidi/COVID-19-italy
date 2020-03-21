@@ -5,7 +5,7 @@ This is a simple analyis of the spread of COVID-19 in italy
 
 ### Data
 
-Download data from the github account of the official italian autorities (Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile) 
+Clone the repo from the github account of the official italian autorities (Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile). This is updated on a daily basis. 
 
 https://github.com/pcm-dpc/COVID-19
 
