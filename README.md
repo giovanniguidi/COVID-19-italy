@@ -42,19 +42,10 @@ dR/dt = &gamma; I(t)
 
  h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
-dS/dt = - &beta; S(t) I(t) / N
-dI/dt = - &beta; S(t) I(t) / N - &gamma; I(t)
+dS/dt = - &beta; S(t) I(t) / N </br>
+dI/dt = - &beta; S(t) I(t) / N - &gamma; I(t) </br>
 dR/dt = &gamma; I(t) / N 
 
-<math>
- <mrow>
-  <mn>1</mn>
-  <mfrac>
-   <mi>1</mi>
-   <mi>2</mi>
-  </mfrac>
- </mrow>
-</math>
 
 
 ## To do
