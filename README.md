@@ -40,6 +40,8 @@ dR/dt = &gamma; I(t)
 \frac{dS}{dt} = - &beta; S(t) I(t) / N
 ```
 
+ h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+
 
 ## To do
 
