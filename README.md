@@ -44,8 +44,9 @@ dR/dt = γ I(t)
 ![picture alt](https://github.com/giovanniguidi/COVID-19-italy/blob/master/images/modelling.png "")
 
 
-## To do
+## Challenges
 
+- [x] modelling the quaratine and see discrepancy with real data
 - [x] compare R0 among different regions and provinces
 - [x] find best &beta; and &gamma; with L-BFGS-B optimization, and study the evolution of R0 on time
 - [x] data-driven modelling (time-series)
