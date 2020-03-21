@@ -31,9 +31,9 @@ with &beta;N other individuals per unit time (of which the fraction that are sus
 The differential equations describing this model were first derived by Kermack and McKendrick in 1927:
 
 ```
-dS/dt = - &beta; S(t) I(t) / N
-dI/dt = &beta; S(t) I(t) / N - &gamma; I
-dR/dt = &gamma; I(t)
+dS/dt = - β S(t) I(t) / N
+dI/dt = β S(t) I(t) / N - γ I
+dR/dt = γ I(t)
 ```
 
 ```
